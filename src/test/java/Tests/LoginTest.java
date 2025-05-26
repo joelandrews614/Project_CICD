@@ -13,7 +13,7 @@ public class LoginTest extends BaseTest{
 		
 		driver.get("https://www.browserstack.com/guide/devops-selenium");
 		
-		Assert.assertEquals(driver.findElement(By.tagName("h1")).getText(), " Integrating Selenium into DevOps: Automating Testing in CI/CD Pipelines ");
+		Assert.assertEquals(driver.findElement(By.tagName("h1")).getText(), "Integrating Selenium into DevOps: Automating Testing in CI/CD Pipelines");
 		
 	}
 	
